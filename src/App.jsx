@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import NewsPage from "./pages/NewsLetter";
+import "./App.css";
 import { Home } from "./pages/Home";
 import Timer from "./pages/Timer";
 
@@ -16,4 +17,3 @@ function App() {
 }
 
 export default App;
-
