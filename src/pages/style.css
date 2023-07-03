@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.timer_head {
+  text-align: center;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.timer_subhead {
+  text-align: center;
+}
+
+.timerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timerWrapper1 {
+  width: 310px;
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: #aaa;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.info {
+  max-width: 360px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-wrapper button {
+  margin-right: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 10px #c7c7c7, -5px -5px 10px #f9f9f9;
+  color: #6c3e77;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  gap: 4px;
+}
+
+.box-violet {
+  background-color: #f0ecf1;
+  margin-top: 5rem;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.boxTitle {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.boxTitle span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #7f7f7f;
+}
+
+.boxBottom {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.column2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column2_head {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.vio {
+  color: #6c3e77;
+}
+
+.subRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subRow1 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.time_icon {
+  color: #6c3e77;
+}

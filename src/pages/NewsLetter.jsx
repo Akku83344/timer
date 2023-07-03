@@ -1,7 +1,6 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
-
-function newsletterpage() {
+function NewsLetter() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
@@ -9,7 +8,7 @@ function newsletterpage() {
   }, []);
 
   const fetchNewsArticles = async () => {
-    const apiKey = "2eb9e7b3c5394315adc30085f6d51fce"
+    const apiKey = "2eb9e7b3c5394315adc30085f6d51fce";
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
     try {
@@ -42,8 +41,4 @@ function newsletterpage() {
   );
 }
 
-
-
-
-
-export default newsletterpage;
+export default NewsLetter;
